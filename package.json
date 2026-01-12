@@ -1,0 +1,23 @@
+{
+  "name": "jscrashcourse",
+  "version": "1.0.0",
+  "description": "node.js crash course",
+  "homepage": "https://github.com/rasmuslinde-design/jscrashcourse#readme",
+  "bugs": {
+    "url": "https://github.com/rasmuslinde-design/jscrashcourse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasmuslinde-design/jscrashcourse.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
